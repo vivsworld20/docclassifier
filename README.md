@@ -11,4 +11,4 @@ Install the dependencies to run this file:
 pip install -r requirements.txt
 
 Run the file:
-python 
+python docclassifier.py
