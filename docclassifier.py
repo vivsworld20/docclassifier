@@ -123,6 +123,8 @@ for epoch in range(num_epochs):
     val_loss, val_accuracy = evaluate_model(model, val_loader, criterion, device)
     print(f"Epoch {epoch + 1}/{num_epochs} | Train Loss: {train_loss:.4f} | Val Loss: {val_loss:.4f} | Val Accuracy: {val_accuracy:.4f}")
 
+
+## The clause matching is added separetely for coding simplicity and just to showcase the Idea.
 # Clause matching (just added this part)
 class ClauseMatcher:
     def __init__(self):
